@@ -24,9 +24,19 @@ struct ContentView: View {
                     ScrollView(.vertical) {
                         VStack(spacing: 0) {
                             FeaturedTabView()
-                                .padding(.vertical, 20)
+                                .padding(.vertical, 17)
                                 .frame(height: geometry.size.width / 1.475)
+                            
                             CategoryGridView()
+                            
+                            TitleView(title: "Helmets")
+                            LazyVGrid(columns: gridLayout, alignment: .center, spacing: 15, pinnedViews: []) {
+                                ForEach(products) { product in
+                                    ProductItemView(product: product)
+                                }
+                            }
+                            .padding(15)
+                            
                             FooterView()
                                 .padding(.horizontal)
                         }
