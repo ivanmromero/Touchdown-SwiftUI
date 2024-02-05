@@ -33,6 +33,10 @@
 		D2E60A122B7197A6004DD02E /* BrandModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E60A112B7197A5004DD02E /* BrandModel.swift */; };
 		D2E60A142B719860004DD02E /* BrandItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E60A132B719860004DD02E /* BrandItemView.swift */; };
 		D2E60A162B719925004DD02E /* BrandGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E60A152B719925004DD02E /* BrandGridView.swift */; };
+		D2E60A182B719B24004DD02E /* ProductDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E60A172B719B23004DD02E /* ProductDetailView.swift */; };
+		D2E60A1A2B719DD0004DD02E /* NavigationBarDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E60A192B719DD0004DD02E /* NavigationBarDetailView.swift */; };
+		D2E60A1C2B719F26004DD02E /* HeaderDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E60A1B2B719F26004DD02E /* HeaderDetailView.swift */; };
+		D2E60A1E2B71A060004DD02E /* TopPartDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E60A1D2B71A060004DD02E /* TopPartDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -64,6 +68,10 @@
 		D2E60A112B7197A5004DD02E /* BrandModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandModel.swift; sourceTree = "<group>"; };
 		D2E60A132B719860004DD02E /* BrandItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandItemView.swift; sourceTree = "<group>"; };
 		D2E60A152B719925004DD02E /* BrandGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandGridView.swift; sourceTree = "<group>"; };
+		D2E60A172B719B23004DD02E /* ProductDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailView.swift; sourceTree = "<group>"; };
+		D2E60A192B719DD0004DD02E /* NavigationBarDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarDetailView.swift; sourceTree = "<group>"; };
+		D2E60A1B2B719F26004DD02E /* HeaderDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderDetailView.swift; sourceTree = "<group>"; };
+		D2E60A1D2B71A060004DD02E /* TopPartDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopPartDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +141,7 @@
 			children = (
 				D2E609D02B71577F004DD02E /* TouchdownApp.swift */,
 				D2E609D22B71577F004DD02E /* ContentView.swift */,
+				D2E60A172B719B23004DD02E /* ProductDetailView.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -168,6 +177,9 @@
 		D2E609EB2B7159E6004DD02E /* Detail */ = {
 			isa = PBXGroup;
 			children = (
+				D2E60A192B719DD0004DD02E /* NavigationBarDetailView.swift */,
+				D2E60A1B2B719F26004DD02E /* HeaderDetailView.swift */,
+				D2E60A1D2B71A060004DD02E /* TopPartDetailView.swift */,
 			);
 			path = Detail;
 			sourceTree = "<group>";
@@ -274,6 +286,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				D2E609FE2B7174BF004DD02E /* CodableBundleExtension.swift in Sources */,
+				D2E60A1C2B719F26004DD02E /* HeaderDetailView.swift in Sources */,
+				D2E60A1E2B71A060004DD02E /* TopPartDetailView.swift in Sources */,
 				D2E609D32B71577F004DD02E /* ContentView.swift in Sources */,
 				D2E609F82B716752004DD02E /* LogoView.swift in Sources */,
 				D2E609F22B715AFE004DD02E /* FooterView.swift in Sources */,
@@ -281,6 +295,8 @@
 				D2E60A102B71910A004DD02E /* ProductItemView.swift in Sources */,
 				D2E60A162B719925004DD02E /* BrandGridView.swift in Sources */,
 				D2E609D12B71577F004DD02E /* TouchdownApp.swift in Sources */,
+				D2E60A182B719B24004DD02E /* ProductDetailView.swift in Sources */,
+				D2E60A1A2B719DD0004DD02E /* NavigationBarDetailView.swift in Sources */,
 				D2E609F02B715A3E004DD02E /* Constants.swift in Sources */,
 				D2E60A082B718378004DD02E /* CategoryGridView.swift in Sources */,
 				D2E60A042B717FB8004DD02E /* CategoryModel.swift in Sources */,
