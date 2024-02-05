@@ -8,6 +8,9 @@
 import SwiftUI
 
 struct FooterView: View {
+    // MARK: - PROPERTIES
+    // MARK: - FUNCTIONS
+    // MARK: - BODY
     var body: some View {
         VStack(alignment: .center, spacing: 10) {
             Text("We offer the most cutting, comfortable, lightweight and durable football helmets in the market at affordable prices.")
@@ -24,6 +27,7 @@ struct FooterView: View {
     }
 }
 
+// MARK: - PREVIEW
 #Preview(traits: .sizeThatFitsLayout) {
     FooterView()
         .background(colorBackground)
