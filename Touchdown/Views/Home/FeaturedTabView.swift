@@ -8,6 +8,9 @@
 import SwiftUI
 
 struct FeaturedTabView: View {
+    // MARK: - PROPERTIES
+    // MARK: - FUNCTIONS
+    // MARK: - BODY
     var body: some View {
         TabView {
             ForEach(players) { player in
@@ -20,6 +23,7 @@ struct FeaturedTabView: View {
     }
 }
 
+// MARK: - PREVIEW
 #Preview {
     FeaturedTabView()
         .background(.gray)
